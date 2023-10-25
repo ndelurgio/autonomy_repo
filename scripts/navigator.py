@@ -21,10 +21,10 @@ class Navigator(BaseNavigator):
         self.om_prev = 0.
         self.t_prev = 0.
         self.V_PREV_THRES = 0.0001
-        self.kpx = 2
-        self.kpy = 2
-        self.kdx = 2
-        self.kdy = 2
+        self.kpx = 2.
+        self.kpy = 2.
+        self.kdx = 2.
+        self.kdy = 2.
     def compute_heading_control(self, state: TurtleBotState, goal: TurtleBotState) -> TurtleBotControl:
         heading_error = wrap_angle(goal.theta - state.theta)
         control_out = TurtleBotControl()
