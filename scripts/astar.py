@@ -47,7 +47,7 @@ class AStar(object):
               useful here
         """
         ########## Code starts here ##########
-        if x[0] > self.statespace_lo[0] and x[0] < self.statespace_hi[0] and x[1] > self.statespace_lo[1] and x[1] < self.statespace_hi[1] and self.occupancy.is_free(x):
+        if x[0] > self.statespace_lo[0] and x[0] < self.statespace_hi[0] and x[1] > self.statespace_lo[1] and x[1] < self.statespace_hi[1] and self.occupancy.is_free(np.array([x[0],x[1]])):
             return True
         else:
             return False
