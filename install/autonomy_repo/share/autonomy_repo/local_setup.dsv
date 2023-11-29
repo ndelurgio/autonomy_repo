@@ -1,2 +1,1 @@
-source;share/autonomy_repo/environment/ament_prefix_path.sh
-source;share/autonomy_repo/environment/path.sh
+/home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo/ament_cmake_environment_hooks/local_setup.dsv

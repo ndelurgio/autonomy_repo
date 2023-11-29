@@ -1,0 +1,50 @@
+[0.048s] Invoking command in '/home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ndelurgio/autonomy_ws/src/autonomy_repo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo
+[0.072s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.185s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.191s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.259s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.259s] -- Configured cppcheck include dirs: 
+[0.259s] -- Configured cppcheck exclude dirs and/or files: 
+[0.260s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.263s] -- Added test 'lint_cmake' to check CMake code style
+[0.265s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.276s] -- Added test 'uncrustify' to check C / C++ code style
+[0.276s] -- Configured uncrustify additional arguments: 
+[0.278s] -- Added test 'xmllint' to check XML markup files
+[0.278s] -- Configuring done
+[0.281s] -- Generating done
+[0.282s] [33mCMake Warning:
+[0.282s]   Manually-specified variables were not used by the project:
+[0.282s] 
+[0.282s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[0.282s] 
+[0.282s] [0m
+[0.282s] -- Build files have been written to: /home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo
+[0.284s] Invoked command in '/home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ndelurgio/autonomy_ws/src/autonomy_repo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo
+[0.286s] Invoking command in '/home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo -- -j4 -l4
+[0.322s] Invoked command in '/home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo -- -j4 -l4
+[0.353s] Invoking command in '/home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo
+[0.360s] -- Install configuration: "RelWithDebInfo"
+[0.361s] -- Execute custom install script
+[0.361s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/lib/autonomy_repo/heading_controller.py
+[0.369s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/lib/autonomy_repo/p3_plot.py
+[0.377s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/lib/autonomy_repo/navigator.py
+[0.386s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/launch/heading_control.launch.py
+[0.394s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/launch/navigator.launch.py
+[0.402s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/rviz/default.rviz
+[0.411s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/ament_index/resource_index/package_run_dependencies/autonomy_repo
+[0.419s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/ament_index/resource_index/parent_prefix_path/autonomy_repo
+[0.428s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.sh
+[0.437s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/environment/ament_prefix_path.dsv
+[0.445s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/environment/path.sh
+[0.453s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/environment/path.dsv
+[0.461s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/local_setup.bash
+[0.469s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/local_setup.sh
+[0.476s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/local_setup.zsh
+[0.483s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/local_setup.dsv
+[0.490s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.dsv
+[0.498s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/ament_index/resource_index/packages/autonomy_repo
+[0.506s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig.cmake
+[0.515s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/cmake/autonomy_repoConfig-version.cmake
+[0.527s] -- Symlinking: /home/ndelurgio/autonomy_ws/src/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.xml
+[0.539s] Invoked command in '/home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ndelurgio/autonomy_ws/src/autonomy_repo/build/autonomy_repo
