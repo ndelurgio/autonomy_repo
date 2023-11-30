@@ -24,7 +24,7 @@ class FrontierExplorer(Node):
         self.map_sub = self.create_subscription(OccupancyGrid, "/map", self.map_callback, 10)
         self.cmd_nav_pub = self.create_publisher(TurtleBotState, "/cmd_nav", 10)
     def select_goal(self,nav_success):
-        if nav_success:
+        if nav_success.data: # try msg.data instead of nav_success
             frontier_states = self.explore()
             curr_pos = np.array([self.state.x,self.state.y])
             dist = np.linalg.norm(curr_pos - frontier_states,axis=1)
@@ -90,3 +90,9 @@ class FrontierExplorer(Node):
             window_size=9,
             probs=msg.data,
         )
+
+if __name__ == "__main__":
+    rclpy.init()            # initialize ROS client library
+    node = FrontierExplorer()    # create the node instance
+    rclpy.spin(node)        # call ROS2 default scheduler
+    rclpy.shutdown()        # clean up after node exits
